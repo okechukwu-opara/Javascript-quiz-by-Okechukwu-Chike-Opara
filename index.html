@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Javascript Quiz by Okechukwu Chike Opara</title>
+  <link href="/Javascript Quiz/css/style.css" rel="stylesheet">
+  <script src="/Javascript Quiz/javascript/script.js"></script>
+</head>
+<body>
+
+<h1>Grab a Drink and Play this Interesting <span>Quiz!</span></h1>
+
+<form id="quiz" name="quiz">
+    <p>1. What animal barks?</p>
+    <input id="textbox" type="text" name="question1">
+
+    <p>2. What programming language was this built with?</p>
+    <input type="radio" id="mc" name="question2" value="Python"> Python<br>
+    <input type="radio" id="mc" name="question2" value="Javascript"> Javascript<br>
+
+    <p>3. When do the sun come out?</p>
+    <input type="radio" id="mc" name="question3" value="Summer"> Summer<br>
+    <input type="radio" id="mc" name="question3" value="Winter"> Winter<br>
+
+    <input id="button" type="button" value="Submit!" onclick= "check();">
+</form>
+
+<div id="after_submit">
+    <p id="messages"></p>
+    <p id="number_correct"></p>
+    <img src="/Javascript Quiz/images/mood-0.gif" alt="Mood" id="mood">
+</div>
+
+</body>
+</html>
